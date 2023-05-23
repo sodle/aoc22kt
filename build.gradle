@@ -25,3 +25,9 @@ kotlin {
 application {
     mainClassName = 'com.sjodle.aoc2022.MainKt'
 }
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
