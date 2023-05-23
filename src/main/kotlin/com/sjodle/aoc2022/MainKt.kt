@@ -2,6 +2,7 @@ package com.sjodle.aoc2022
 
 import com.sjodle.aoc2022.puzzles.Day01
 import com.sjodle.aoc2022.puzzles.Day02
+import com.sjodle.aoc2022.puzzles.Day03
 
 import kotlin.system.exitProcess
 
@@ -10,6 +11,7 @@ class MainKt {
         private val puzzles = listOf(
             Day01(),
             Day02(),
+            Day03(),
         )
 
         @JvmStatic fun main(args: Array<String>) {

@@ -1,16 +1,14 @@
 package com.sjodle.aoc2022.puzzles
 
-import kotlin.math.exp
-
 class Day02: BasePuzzle<List<Pair<String, String>>, Int>() {
     override fun getPuzzleInput(): List<Pair<String, String>> {
-        val fileContent = this::class.java.getResource("/day02.txt")?.readText()
+        val fileContent = this::class.java.getResource("/day02.txt")!!.readText()
 
-        return fileContent?.lines()?.filter { it.isNotEmpty() }?.map { line ->
+        return fileContent.lines().filter { it.isNotEmpty() }.map { line ->
             line.split("\\s+".toRegex()).let { match ->
                 Pair(match.first(), match.last())
             }
-        } ?: listOf()
+        }
     }
 
     private fun scoreShape(shape: String): Int {
