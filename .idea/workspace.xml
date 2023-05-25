@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f10f4a67-b2ff-4c46-9288-da3bd6dec6ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sjodle/aoc2022/puzzles/Day05.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day05.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/sjodle/aoc2022/puzzles/TestDay05.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/day05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sjodle/aoc2022/puzzles/Day06.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day06.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/sjodle/aoc2022/puzzles/TestDay06.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/day06.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sjodle/aoc2022/MainKt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sjodle/aoc2022/MainKt.kt" afterDir="false" />
     </list>
@@ -78,79 +78,7 @@
       <recent name="com.sjodle.aoc2022.puzzles" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestDay05">
-    <configuration name="TestDay04" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.sjodle.aoc2022.puzzles.TestDay04&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestDay04.testGetInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.sjodle.aoc2022.puzzles.TestDay04.testGetInput&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestDay04.testPart2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.sjodle.aoc2022.puzzles.TestDay04.testPart2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.TestDay06.testPart2">
     <configuration name="TestDay05" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -199,13 +127,85 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="TestDay06.testGetInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.sjodle.aoc2022.puzzles.TestDay06.testGetInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDay06.testPart1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.sjodle.aoc2022.puzzles.TestDay06.testPart1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDay06.testPart2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.sjodle.aoc2022.puzzles.TestDay06.testPart2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestDay06.testPart2" />
+        <item itemvalue="Gradle.TestDay06.testPart1" />
+        <item itemvalue="Gradle.TestDay06.testGetInput" />
         <item itemvalue="Gradle.TestDay05" />
         <item itemvalue="Gradle.TestDay05.testGetInput" />
-        <item itemvalue="Gradle.TestDay04" />
-        <item itemvalue="Gradle.TestDay04.testPart2" />
-        <item itemvalue="Gradle.TestDay04.testGetInput" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +218,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684810463829</updated>
       <workItem from="1684810464828" duration="5604000" />
-      <workItem from="1684846297695" duration="13973000" />
+      <workItem from="1684846297695" duration="16720000" />
     </task>
     <servers />
   </component>
