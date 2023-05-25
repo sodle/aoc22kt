@@ -1,9 +1,6 @@
 package com.sjodle.aoc2022
 
-import com.sjodle.aoc2022.puzzles.Day01
-import com.sjodle.aoc2022.puzzles.Day02
-import com.sjodle.aoc2022.puzzles.Day03
-import com.sjodle.aoc2022.puzzles.Day04
+import com.sjodle.aoc2022.puzzles.*
 
 import kotlin.system.exitProcess
 
@@ -14,6 +11,7 @@ class MainKt {
             Day02(),
             Day03(),
             Day04(),
+            Day05(),
         )
 
         @JvmStatic fun main(args: Array<String>) {
