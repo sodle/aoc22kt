@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f10f4a67-b2ff-4c46-9288-da3bd6dec6ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day08.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/sjodle/aoc2022/puzzles/TestDay08.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/day08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sjodle/aoc2022/puzzles/Day09.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/sjodle/aoc2022/puzzles/TestDay09.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/day09.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sjodle/aoc2022/MainKt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sjodle/aoc2022/MainKt.kt" afterDir="false" />
     </list>
@@ -80,55 +81,7 @@
       <recent name="com.sjodle.aoc2022.puzzles" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestDay08.testPart2">
-    <configuration name="TestDay07" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.sjodle.aoc2022.puzzles.TestDay07&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestDay07.testPrefixes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.sjodle.aoc2022.puzzles.TestDay07.testPrefixes&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.TestDay09.testPart1">
     <configuration name="TestDay08.testGetInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -201,13 +154,61 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="TestDay09.testGetInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.sjodle.aoc2022.puzzles.TestDay09.testGetInput&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDay09.testPart1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.sjodle.aoc2022.puzzles.TestDay09.testPart1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestDay09.testPart1" />
+        <item itemvalue="Gradle.TestDay09.testGetInput" />
         <item itemvalue="Gradle.TestDay08.testPart2" />
         <item itemvalue="Gradle.TestDay08.testGetInput" />
         <item itemvalue="Gradle.TestDay08.testPart1" />
-        <item itemvalue="Gradle.TestDay07" />
-        <item itemvalue="Gradle.TestDay07.testPrefixes" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +221,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684810463829</updated>
       <workItem from="1684810464828" duration="5604000" />
-      <workItem from="1684846297695" duration="32691000" />
+      <workItem from="1684846297695" duration="39548000" />
     </task>
     <servers />
   </component>
