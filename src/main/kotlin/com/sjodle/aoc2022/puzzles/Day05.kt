@@ -63,7 +63,7 @@ class Crane(lines: List<String>) {
         get() = stacks.map { it.peek() }.joinToString("")
 }
 
-class Day05: BasePuzzle<Crane, String>() {
+class Day05: BasePuzzle<Crane, String, String>() {
     override fun getPuzzleInput(): Crane {
         val fileContent = this::class.java.getResource("/day05.txt")!!.readText()
         return Crane(fileContent.lines())

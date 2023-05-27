@@ -1,6 +1,6 @@
 package com.sjodle.aoc2022.puzzles
 
-class Day03: BasePuzzle<List<Pair<String, String>>, Int>() {
+class Day03: BasePuzzle<List<Pair<String, String>>, Int, Int>() {
     private val alphabet = ('a'..'z') + ('A'..'Z')
 
     override fun getPuzzleInput(): List<Pair<String, String>> {

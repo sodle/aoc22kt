@@ -102,7 +102,7 @@ class Forest(lines: List<String>) {
     }
 }
 
-class Day08: BasePuzzle<Forest, Int>() {
+class Day08: BasePuzzle<Forest, Int, Int>() {
     override fun getPuzzleInput(): Forest {
         val fileContent = this::class.java.getResource("/day08.txt")!!.readText()
         return Forest(fileContent.lines())

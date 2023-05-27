@@ -2,7 +2,7 @@ package com.sjodle.aoc2022.puzzles
 
 import kotlin.math.abs
 
-class Day09: BasePuzzle<List<Pair<Char, Int>>, Int>() {
+class Day09: BasePuzzle<List<Pair<Char, Int>>, Int, Int>() {
     override fun getPuzzleInput(): List<Pair<Char, Int>> {
         val fileContent = this::class.java.getResource("/day09.txt")!!.readText()
         return fileContent.lines().filter {
