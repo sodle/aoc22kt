@@ -14,49 +14,71 @@ class Day09: BasePuzzle<List<Pair<Char, Int>>, Int>() {
     }
 
     override fun part1(input: List<Pair<Char, Int>>): Int {
-        var headX = 0
-        var headY = 0
-        var tailX = 0
-        var tailY = 0
+        return runMotions(2, input)
+    }
+
+    override fun part2(input: List<Pair<Char, Int>>): Int {
+        return runMotions(10, input)
+    }
+
+    private fun runMotions(ropeLength: Int, input: List<Pair<Char, Int>>): Int {
+        val knots = (1..ropeLength).map {
+            Pair(0, 0)
+        }.toTypedArray()
 
         return input.flatMap { instruction ->
             val direction = instruction.first
             val distance = instruction.second
 
             (1..distance).map { _ ->
-                when(direction) {
+                when (direction) {
                     'U' -> {
-                        headY++
+                        knots[0] = Pair(knots[0].first, knots[0].second + 1)
                     }
+
                     'D' -> {
-                        headY--
+                        knots[0] = Pair(knots[0].first, knots[0].second - 1)
                     }
+
                     'L' -> {
-                        headX--
+                        knots[0] = Pair(knots[0].first - 1, knots[0].second)
                     }
+
                     'R' -> {
-                        headX++
+                        knots[0] = Pair(knots[0].first + 1, knots[0].second)
                     }
                 }
-                val dx = headX - tailX
-                val dy = headY - tailY
-                if (maxOf(abs(dx), abs(dy)) > 1) {
-                    tailX += dx.let {
-                        if (it != 0) {
-                            it / abs(it)
-                        } else {
-                            0
+
+                (1 until ropeLength).forEach { idx ->
+                    val self = knots[idx]
+                    val last = knots[idx - 1]
+
+                    val dx = last.first - self.first
+                    val dy = last.second - self.second
+
+                    var x = self.first
+                    var y = self.second
+
+                    if (maxOf(abs(dx), abs(dy)) > 1) {
+                        x += dx.let {
+                            if (it != 0) {
+                                it / abs(it)
+                            } else {
+                                0
+                            }
+                        }
+                        y += dy.let {
+                            if (it != 0) {
+                                it / abs(it)
+                            } else {
+                                0
+                            }
                         }
                     }
-                    tailY += dy.let {
-                        if (it != 0) {
-                            it / abs(it)
-                        } else {
-                            0
-                        }
-                    }
+                    knots[idx] = Pair(x, y)
                 }
-                Pair(tailX, tailY)
+
+                knots.last()
             }
         }.toSet().size
     }
