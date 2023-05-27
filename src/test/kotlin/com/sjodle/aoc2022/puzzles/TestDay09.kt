@@ -33,6 +33,17 @@ class TestDay09 {
     fun testPart2() {
         val puzzle = Day09()
         val output = puzzle.part2()
-        assertEquals(8, output)
+        assertEquals(1, output)
+
+        assertEquals(36, puzzle.part2(listOf(
+            'R' to 5,
+            'U' to 8,
+            'L' to 8,
+            'D' to 3,
+            'R' to 17,
+            'D' to 10,
+            'L' to 25,
+            'U' to 20,
+        )))
     }
 }
