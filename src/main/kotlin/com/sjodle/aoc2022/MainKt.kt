@@ -16,6 +16,7 @@ class MainKt {
             Day07(),
             Day08(),
             Day09(),
+            Day10(),
         )
 
         @JvmStatic fun main(args: Array<String>) {

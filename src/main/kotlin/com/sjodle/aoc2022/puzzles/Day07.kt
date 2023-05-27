@@ -44,7 +44,7 @@ class Filesystem(lines: List<String>) {
     }
 }
 
-class Day07: BasePuzzle<Filesystem, Int>() {
+class Day07: BasePuzzle<Filesystem, Int, Int>() {
     override fun getPuzzleInput(): Filesystem {
         val fileContent = this::class.java.getResource("/day07.txt")!!.readText()
 

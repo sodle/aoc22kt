@@ -1,6 +1,6 @@
 package com.sjodle.aoc2022.puzzles
 
-class Day04: BasePuzzle<List<Pair<Set<Int>, Set<Int>>>, Int>() {
+class Day04: BasePuzzle<List<Pair<Set<Int>, Set<Int>>>, Int, Int>() {
     override fun getPuzzleInput(): List<Pair<Set<Int>, Set<Int>>> {
         val fileContent = this::class.java.getResource("/day04.txt")!!.readText()
 
